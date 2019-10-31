@@ -1,0 +1,154 @@
+body {
+    margin: 0px;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+.header {
+    display: block;
+    background: url("https://img.ibxk.com.br/2018/08/23/23130311231085.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    border-bottom: 20px solid darkorange;
+}
+
+.header .titulo {
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 1px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.header .foto-rodolfo {
+    display: block;
+    width: 150px;
+    margin: auto;
+    border-radius: 100px;
+    border: 10px solid darkorange;
+}
+
+.titulo, .info-pessoal, .info-profissional, .info-academica {
+    font-family: formata regular;
+}
+
+.titulo .icones {
+    font-size: 30px;
+}
+
+.titulo .icones i {
+    color: white;
+    margin: 0 10px;
+    transition: 0.3s color;
+}
+
+.titulo .icones i:hover {
+    color: darkorange;
+    transition: 0.3s color;
+}
+
+.informacoes {
+    position: absolute;
+    background: #006699;
+}
+
+.body {
+    background: url('https://bsolive.com/wp-content/uploads/2019/06/Space-and-Exploration.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.sobrepor-section {
+    background: rgba(0, 102, 153, 0.5);
+    padding: 20px;
+}
+
+.info-pessoal {
+    display: block;
+    background: white;
+    width: 78.5%;
+    padding: 10px;
+    margin: 20px auto;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 30px 30px 0px 0px;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.infos-pessoal-academica {
+    width: 80%;
+    margin: 0 auto 30px auto;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    background: rgba(255, 255, 255, 0.9);
+    display: flex;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.info-academica {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    float: left;
+    padding: 20px;
+}
+
+.info-profissional {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    float: right;
+    padding: 20px;
+}
+
+.barra {
+    position: relative;
+    top: 3px;
+    width: 75%;
+    height: 15px;
+    background-color: black;
+    border-radius: 100px;
+    float: left;
+    margin-right: 10px;
+}
+
+.habilidade span {
+    float: left;
+}
+
+.barra .barra-preenchimento {
+    border-radius: 100px;
+    height: 100%;
+    animation: barra-animacao 3s infinite;
+}
+
+@keyframes barra-animacao {
+    0% { width: 0%; }
+    100% { width: 100%}
+}
+
+.barra-j {background: red}
+.barra-py {background: #4280B2}
+.barra-ps {background: blue}
+.barra-ai {background: #FE7903}
+.barra-of {background: #EB3C00}
+.barra-c {background: yellow}
+.barra-git {background: #6F42C1}
+.barra-js {background: #F58233}
+.barra-css {background: #254BDE}
+.barra-sql {background: lightgreen}
